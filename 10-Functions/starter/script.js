@@ -95,3 +95,25 @@
 // document.body.addEventListener('click', high5);
 
 // ['justice', 'martha', 'adam'].forEach(high5);
+
+// ------------
+
+// // Lecture 132: Functions Returning Functions
+
+// const greet = function(greeting) {
+//     return function(name) {
+//         console.log(`${greeting} ${name}`)
+//     }
+// }
+
+// const greeterHey = greet('Hey');
+// greeterHey('Justice');
+// greeterHey('Steven');
+
+// greet('Hello')('Justice');
+
+// // Challenge
+
+// const greetArr = greeting => name => console.log(`${greeting} ${name}`);
+
+// greetArr('Hi')('Justice');
