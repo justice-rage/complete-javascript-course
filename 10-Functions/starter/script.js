@@ -384,3 +384,24 @@
 
 // // console.log(isPrivate);
 // console.log(notPrivate);
+
+// ------------
+
+// // Lecture 137: Closures
+
+// const secureBooking = function(){
+//     let passengerCount = 0;
+
+//     return function(){
+//         passengerCount++;
+//         console.log(`${passengerCount} passengers`);
+//     }
+// }
+
+// const booker = secureBooking();
+
+// booker(); // 1 passenger
+// booker(); // 2 passenger
+// booker(); // 3 passenger
+
+// console.dir(booker);
