@@ -176,3 +176,7 @@ const inputClosePin = document.querySelector('.form__input--pin');
 // currenciesUnique.forEach(function(value, _, map){
 //   console.log(`${value}: ${value}`);
 // });
+
+// ------------
+
+// Lecture 146: PROJECT - Bankist App
