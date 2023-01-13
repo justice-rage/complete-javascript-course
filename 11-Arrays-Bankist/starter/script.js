@@ -75,36 +75,53 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
 
-let arr = ['a', 'b', 'c', 'd', 'e'];
-// Lecture 142: Simple Array Methods 
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// // Lecture 142: Simple Array Methods 
 
-// SLICE - COPYS ARRAY
-console.log(arr.slice(2));
-console.log(arr.slice(2, 4));
-console.log(arr.slice(-2));
-console.log(arr.slice(-2));
-console.log(arr.slice(-1));
-console.log(arr.slice(1 , -2)); // initital index but not the last two
-console.log(arr.slice()); // shallow copy of array
-console.log([...arr]); // shallow copy of array
+// // SLICE - COPYS ARRAY
+// console.log(arr.slice(2));
+// console.log(arr.slice(2, 4));
+// console.log(arr.slice(-2));
+// console.log(arr.slice(-2));
+// console.log(arr.slice(-1));
+// console.log(arr.slice(1 , -2)); // initital index but not the last two
+// console.log(arr.slice()); // shallow copy of array
+// console.log([...arr]); // shallow copy of array
 
-// SPLICE - MUTATES ARRAY
-// console.log(arr.splice(2));
-console.log(arr.splice(-1));
-console.log(arr);
-console.log(arr.splice(1, 2));
-console.log(arr);
+// // SPLICE - MUTATES ARRAY
+// // console.log(arr.splice(2));
+// console.log(arr.splice(-1));
+// console.log(arr);
+// console.log(arr.splice(1, 2));
+// console.log(arr);
 
-// REVERSE - MUTATES ARRAY
-arr = ['a', 'b', 'c', 'd', 'e'];
-const arr2 = ['j', 'i', 'h', 'g', 'f'];
-console.log(arr2.reverse());
-console.log(arr2);
+// // REVERSE - MUTATES ARRAY
+// arr = ['a', 'b', 'c', 'd', 'e'];
+// const arr2 = ['j', 'i', 'h', 'g', 'f'];
+// console.log(arr2.reverse());
+// console.log(arr2);
 
-// CONCAT
-const letters = arr.concat(arr2);
-console.log(letters);
-console.log(...arr, ...arr2);
+// // CONCAT
+// const letters = arr.concat(arr2);
+// console.log(letters);
+// console.log(...arr, ...arr2);
 
-// JOIN
-console.log(letters.join(' - '));
+// // JOIN
+// console.log(letters.join(' - '));
+
+// ------------
+
+// // Lecture 143: The new at Method
+
+// const arr = [23, 11, 64];
+// console.log(arr[0]);
+// console.log(arr.at(0));
+
+// // Getting last array element
+// console.log(arr[arr.length - 1]);
+// console.log(arr.slice(-1)[0]);
+// console.log(arr.at(-1));
+
+// // at method works on strings and arrays
+// console.log('jonas'.at(0));
+// console.log('jonas'.at(-1));
