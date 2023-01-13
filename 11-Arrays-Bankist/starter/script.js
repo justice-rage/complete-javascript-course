@@ -240,3 +240,8 @@ const inputClosePin = document.querySelector('.form__input--pin');
 // };
 
 // checkDogs(jd, kd);
+
+// ------------
+
+// Lecture 149: Data Transformations: map, filter, reduce
+
